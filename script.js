@@ -25,7 +25,7 @@
     });
 
   // Handle dark/light mode
-  let isDarkMode = false;
+  let isDarkMode = false; //light mode
   toggleBtn.addEventListener('click', () => {
     isDarkMode = !isDarkMode;
     document.body.style.backgroundColor = isDarkMode ? '#212529' : '#f5f5f5';
